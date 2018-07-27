@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DNg-2n-HvO">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="6rS-x5-uU2">
+            <objects>
+                <viewController id="DNg-2n-HvO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WDb-V2-bBU"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lff-5V-Jhv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WcU-pf-dHq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2018-07-23 at 17.42.29" translatesAutoresizingMaskIntoConstraints="NO" id="4bL-70-o1K">
+                                <rect key="frame" x="16" y="20" width="343" height="193"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="193" id="EVW-Pa-0HJ"/>
+                                    <constraint firstAttribute="width" constant="343" id="khk-Ig-Ptu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APOIO:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7mK-Y8-p9e">
+                                <rect key="frame" x="16" y="265" width="56" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4bL-70-o1K" firstAttribute="trailing" secondItem="WcU-pf-dHq" secondAttribute="trailingMargin" id="0OE-0m-DuT"/>
+                            <constraint firstItem="4bL-70-o1K" firstAttribute="top" secondItem="WDb-V2-bBU" secondAttribute="bottom" id="8Bs-nr-oXb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7mK-Y8-p9e" secondAttribute="trailing" constant="287" id="Gfh-z9-w7X"/>
+                            <constraint firstItem="7mK-Y8-p9e" firstAttribute="leading" secondItem="WcU-pf-dHq" secondAttribute="leadingMargin" id="Nex-hb-UcJ"/>
+                            <constraint firstItem="7mK-Y8-p9e" firstAttribute="top" secondItem="4bL-70-o1K" secondAttribute="bottom" constant="52" id="eH6-15-Zfa"/>
+                            <constraint firstItem="4bL-70-o1K" firstAttribute="leading" secondItem="WcU-pf-dHq" secondAttribute="leadingMargin" id="kkQ-kv-GIr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rnE-gq-oPL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-55.200000000000003" y="139.880059970015"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screen Shot 2018-07-23 at 17.42.29" width="779" height="407"/>
+    </resources>
+</document>
