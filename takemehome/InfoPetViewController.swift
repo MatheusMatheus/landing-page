@@ -15,13 +15,13 @@ class InfoPetViewController: UIViewController {
     @IBOutlet weak var infoPet: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        AdotanteDAO.getFrequencia { (adotantes) in
-            self.contatoDoador.text = adotantes[0].nome
-            self.endereco.text = adotantes[0].sexo
-            self.infoPet.text = adotantes[0].idade
-        // Do any additional setup after loading the view.
-        }
-
+        
+        var pets : [Pet] = PetResource.getPet()
+        
+        endereco.text = pets[0].endereco
+        contatoDoador.text = pets[0].contato
+        infoPet.text = pets[0].infoPet
+     
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F0ACB6E2111037200A4EB52 /* PetDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0ACB6D2111037200A4EB52 /* PetDAO.swift */; };
 		3F27E698210B9D0A00F54324 /* Principal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F27E697210B9D0A00F54324 /* Principal.storyboard */; };
 		3F42238B210A5FA800B4A71A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F42238A210A5FA800B4A71A /* Assets.xcassets */; };
 		3F42238F210A65B200B4A71A /* Registrar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F42238E210A65B200B4A71A /* Registrar.storyboard */; };
 		3F422393210A67E500B4A71A /* RegistrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F422392210A67E500B4A71A /* RegistrarViewController.swift */; };
+		3F461CB4211247AA00C59257 /* AdontanteResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F461CB1211247AA00C59257 /* AdontanteResource.swift */; };
+		3F461CB5211247AA00C59257 /* DoadorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F461CB2211247AA00C59257 /* DoadorResource.swift */; };
+		3F461CB6211247AA00C59257 /* PetResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F461CB3211247AA00C59257 /* PetResource.swift */; };
+		3F461CBA211247C200C59257 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F461CB7211247C200C59257 /* Animal.swift */; };
+		3F461CBB211247C200C59257 /* Doacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F461CB8211247C200C59257 /* Doacao.swift */; };
+		3F461CBC211247C200C59257 /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F461CB9211247C200C59257 /* Pessoa.swift */; };
+		3F461CBE21124D9200C59257 /* ChamadaSincrona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F461CBD21124D9200C59257 /* ChamadaSincrona.swift */; };
 		3F4E2EA52110E9B40018C578 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E2E9C2110E9B40018C578 /* UIButtonX.swift */; };
 		3F4E2EA62110E9B40018C578 /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E2E9D2110E9B40018C578 /* UIImageViewX.swift */; };
 		3F4E2EA72110E9B40018C578 /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E2E9E2110E9B40018C578 /* UILabelX.swift */; };
@@ -23,7 +29,6 @@
 		3F4E2EAD2110E9B40018C578 /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E2EA42110E9B40018C578 /* UIViewXRadialGradient.swift */; };
 		3F4E2EB02110EA4D0018C578 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E2EAE2110EA4D0018C578 /* OpenSans-Light.ttf */; };
 		3F4E2EB12110EA4D0018C578 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E2EAF2110EA4D0018C578 /* OpenSans-Regular.ttf */; };
-		3F4E2EB32110F2880018C578 /* AdotanteDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E2EB22110F2880018C578 /* AdotanteDAO.swift */; };
 		3F4E2ED52110F98D0018C578 /* InfoPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E2ED42110F98D0018C578 /* InfoPetViewController.swift */; };
 		3F6EE0BB210FB15600BEC3D1 /* AdoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EE0BA210FB15600BEC3D1 /* AdoteViewController.swift */; };
 		3F7A20582106718900FB501B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A20572106718900FB501B /* AppDelegate.swift */; };
@@ -33,11 +38,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F0ACB6D2111037200A4EB52 /* PetDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PetDAO.swift; path = ../PetDAO.swift; sourceTree = "<group>"; };
 		3F27E697210B9D0A00F54324 /* Principal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Principal.storyboard; sourceTree = "<group>"; };
 		3F42238A210A5FA800B4A71A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F42238E210A65B200B4A71A /* Registrar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Registrar.storyboard; sourceTree = "<group>"; };
 		3F422392210A67E500B4A71A /* RegistrarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrarViewController.swift; sourceTree = "<group>"; };
+		3F461CB1211247AA00C59257 /* AdontanteResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdontanteResource.swift; path = "../../Desktop/takemehome-full/takemehome/AdontanteResource.swift"; sourceTree = "<group>"; };
+		3F461CB2211247AA00C59257 /* DoadorResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DoadorResource.swift; path = "../../Desktop/takemehome-full/takemehome/DoadorResource.swift"; sourceTree = "<group>"; };
+		3F461CB3211247AA00C59257 /* PetResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PetResource.swift; path = "../../Desktop/takemehome-full/takemehome/PetResource.swift"; sourceTree = "<group>"; };
+		3F461CB7211247C200C59257 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Animal.swift; path = "../../Desktop/takemehome-full/takemehome/Animal.swift"; sourceTree = "<group>"; };
+		3F461CB8211247C200C59257 /* Doacao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Doacao.swift; path = "../../Desktop/takemehome-full/takemehome/Doacao.swift"; sourceTree = "<group>"; };
+		3F461CB9211247C200C59257 /* Pessoa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pessoa.swift; path = "../../Desktop/takemehome-full/takemehome/Pessoa.swift"; sourceTree = "<group>"; };
+		3F461CBD21124D9200C59257 /* ChamadaSincrona.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChamadaSincrona.swift; sourceTree = "<group>"; };
 		3F4E2E9C2110E9B40018C578 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButtonX.swift; path = DesignableX/UIButtonX.swift; sourceTree = "<group>"; };
 		3F4E2E9D2110E9B40018C578 /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageViewX.swift; path = DesignableX/UIImageViewX.swift; sourceTree = "<group>"; };
 		3F4E2E9E2110E9B40018C578 /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UILabelX.swift; path = DesignableX/UILabelX.swift; sourceTree = "<group>"; };
@@ -49,7 +60,6 @@
 		3F4E2EA42110E9B40018C578 /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewXRadialGradient.swift; path = DesignableX/UIViewXRadialGradient.swift; sourceTree = "<group>"; };
 		3F4E2EAE2110EA4D0018C578 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		3F4E2EAF2110EA4D0018C578 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
-		3F4E2EB22110F2880018C578 /* AdotanteDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdotanteDAO.swift; sourceTree = "<group>"; };
 		3F4E2ED42110F98D0018C578 /* InfoPetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPetViewController.swift; sourceTree = "<group>"; };
 		3F6EE0BA210FB15600BEC3D1 /* AdoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdoteViewController.swift; sourceTree = "<group>"; };
 		3F7A20542106718900FB501B /* takemehome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takemehome.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +81,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F461CA32112445A00C59257 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3F461CB7211247C200C59257 /* Animal.swift */,
+				3F461CB8211247C200C59257 /* Doacao.swift */,
+				3F461CB9211247C200C59257 /* Pessoa.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		3F461CAA2112447400C59257 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F461CB1211247AA00C59257 /* AdontanteResource.swift */,
+				3F461CB2211247AA00C59257 /* DoadorResource.swift */,
+				3F461CB3211247AA00C59257 /* PetResource.swift */,
+				3F461CBD21124D9200C59257 /* ChamadaSincrona.swift */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
 		3F4E2E992110E89A0018C578 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +124,8 @@
 		3F7A204B2106718900FB501B = {
 			isa = PBXGroup;
 			children = (
+				3F461CAA2112447400C59257 /* resources */,
+				3F461CA32112445A00C59257 /* model */,
 				3F7A20562106718900FB501B /* takemehome */,
 				3F4E2E992110E89A0018C578 /* Resources */,
 				3F7A20552106718900FB501B /* Products */,
@@ -110,8 +143,6 @@
 		3F7A20562106718900FB501B /* takemehome */ = {
 			isa = PBXGroup;
 			children = (
-				3F0ACB6D2111037200A4EB52 /* PetDAO.swift */,
-				3F4E2EB22110F2880018C578 /* AdotanteDAO.swift */,
 				3F6EE0BA210FB15600BEC3D1 /* AdoteViewController.swift */,
 				3F27E697210B9D0A00F54324 /* Principal.storyboard */,
 				3F4E2ED42110F98D0018C578 /* InfoPetViewController.swift */,
@@ -203,22 +234,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F461CBC211247C200C59257 /* Pessoa.swift in Sources */,
 				3F4E2EAA2110E9B40018C578 /* UIViewAnchorPoint.swift in Sources */,
 				3F4E2EA72110E9B40018C578 /* UILabelX.swift in Sources */,
 				3F4E2EA82110E9B40018C578 /* UISliderX.swift in Sources */,
 				3F6EE0BB210FB15600BEC3D1 /* AdoteViewController.swift in Sources */,
-				3F0ACB6E2111037200A4EB52 /* PetDAO.swift in Sources */,
-				3F4E2EB32110F2880018C578 /* AdotanteDAO.swift in Sources */,
+				3F461CB5211247AA00C59257 /* DoadorResource.swift in Sources */,
+				3F461CBE21124D9200C59257 /* ChamadaSincrona.swift in Sources */,
 				3F4E2EA62110E9B40018C578 /* UIImageViewX.swift in Sources */,
 				3F4E2EAC2110E9B40018C578 /* UIViewX.swift in Sources */,
 				3F7A205A2106718900FB501B /* LoginViewController.swift in Sources */,
 				3F422393210A67E500B4A71A /* RegistrarViewController.swift in Sources */,
+				3F461CBA211247C200C59257 /* Animal.swift in Sources */,
 				3F4E2ED52110F98D0018C578 /* InfoPetViewController.swift in Sources */,
 				3F4E2EAD2110E9B40018C578 /* UIViewXRadialGradient.swift in Sources */,
 				3F4E2EAB2110E9B40018C578 /* UIViewControllerX.swift in Sources */,
 				3F4E2EA52110E9B40018C578 /* UIButtonX.swift in Sources */,
 				3F4E2EA92110E9B40018C578 /* UITextFieldX.swift in Sources */,
+				3F461CBB211247C200C59257 /* Doacao.swift in Sources */,
 				3F7A20582106718900FB501B /* AppDelegate.swift in Sources */,
+				3F461CB4211247AA00C59257 /* AdontanteResource.swift in Sources */,
+				3F461CB6211247AA00C59257 /* PetResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

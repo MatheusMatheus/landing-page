@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A18793A348D199D86CE2D97319B674FFFC0E6AB0+++410DF12",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A18793A348D199D86CE2D97319B674FFFC0E6AB0+++410DF12" : 9223372036854775807,
+    "A18793A348D199D86CE2D97319B674FFFC0E6AB0+++6136947" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E9FE1950-4118-400A-BEA5-EB0A4CB532C7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A18793A348D199D86CE2D97319B674FFFC0E6AB0+++410DF12" : "takemehome-full\/",
+    "A18793A348D199D86CE2D97319B674FFFC0E6AB0+++6136947" : "..\/Desktop\/takemehome-full"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "takemehome",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "takemehome.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MatheusMatheus\/takemehome-full.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A18793A348D199D86CE2D97319B674FFFC0E6AB0+++410DF12"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MatheusMatheus\/takemehome-full.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A18793A348D199D86CE2D97319B674FFFC0E6AB0+++6136947"
+    }
+  ]
+}
