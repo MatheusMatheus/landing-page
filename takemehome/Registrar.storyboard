@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hKg-Ri-5KR">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="pBb-ku-dVY">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,6 +10,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Login-->
+        <scene sceneID="Sin-HK-5I9">
+            <objects>
+                <navigationController title="Login" id="pBb-ku-dVY" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="l0F-yd-1s5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="hKg-Ri-5KR" kind="relationship" relationship="rootViewController" id="4la-Pk-nPP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ez-RA-b0z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15" y="375"/>
+        </scene>
         <!--Registrar View Controller-->
         <scene sceneID="9xh-Tw-Bay">
             <objects>
@@ -23,7 +39,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2018-07-23 at 17.42.29" translatesAutoresizingMaskIntoConstraints="NO" id="4Ir-bD-W7B">
-                                <rect key="frame" x="16" y="28" width="343" height="177"/>
+                                <rect key="frame" x="16" y="72" width="343" height="133"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="Eiv-vk-2gi"/>
                                     <constraint firstAttribute="height" constant="177" id="M9r-Cw-2aQ"/>
@@ -73,13 +89,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Este nome de usuário já existe!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sho-CC-IJX">
-                                <rect key="frame" x="22" y="237" width="337" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.26829542140000001" blue="0.23653987600000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -103,6 +112,7 @@
                             <constraint firstItem="afr-1O-t8Y" firstAttribute="top" secondItem="4Ir-bD-W7B" secondAttribute="bottom" constant="86" id="w9s-QE-ZIp"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="co9-RQ-6s4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vDZ-MW-FZj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
