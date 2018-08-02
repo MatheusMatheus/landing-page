@@ -14,8 +14,8 @@ class Frequencia {
     
     init(json: [String: AnyObject]) {
         let payload = json["payload"] as! [String: AnyObject]
-        let d = payload["d"] as! [AnyObject]
-        self.batimento = String(d[0]["batimento"] as! Float)
+        let d = payload["d"] as AnyObject
+        self.batimento = String(d["batimento"] as! Float)
     }
 }
 

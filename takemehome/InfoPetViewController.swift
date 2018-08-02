@@ -22,11 +22,11 @@ class InfoPetViewController: UIViewController {
         
         var pets : [Pet] = PetResource.getPets()
         
-        enderecoPet.text = pets[0].endereco
-        contatoDoador.text = pets[0].contato
-        sexoPet.text = pets[0].sexo
-        portePet.text = pets[0].porte
-        infoPet.text = pets[0].infoPet
+        enderecoPet.text = pets[Incrementador.index].endereco
+        contatoDoador.text = pets[Incrementador.index].contato
+        sexoPet.text = pets[Incrementador.index].sexo
+        portePet.text = pets[Incrementador.index].porte
+        infoPet.text = pets[Incrementador.index].infoPet
         
      
     }

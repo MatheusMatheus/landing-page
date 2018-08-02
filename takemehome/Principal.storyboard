@@ -154,9 +154,10 @@
                     <navigationItem key="navigationItem" title="Adote" id="jdF-eP-0TW"/>
                     <connections>
                         <outlet property="cardView" destination="L60-5O-U4p" id="8GO-3d-05C"/>
-                        <outlet property="subtituloLabel" destination="ilY-HI-efL" id="ZM5-1s-bCh"/>
+                        <outlet property="fotoPet" destination="usn-c0-PaL" id="CJA-5t-7RI"/>
+                        <outlet property="subtitulo" destination="ilY-HI-efL" id="xBx-G8-HAz"/>
                         <outlet property="thumbImageView" destination="fEs-Ef-j3y" id="Dmk-8J-5ZH"/>
-                        <outlet property="tituloLabel" destination="Abx-pc-nU3" id="Z4W-Bv-63s"/>
+                        <outlet property="titulo" destination="Abx-pc-nU3" id="hzN-qK-a11"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="boA-vl-42t" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -376,6 +377,9 @@
                                 <state key="normal" title="Pegar batimento">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="button:" destination="4Ru-Hl-tqt" eventType="touchUpInside" id="P7a-LH-8ZJ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BPM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zym-WT-wzU">
                                 <rect key="frame" x="157" y="289" width="61" height="30"/>
@@ -398,7 +402,7 @@
                     <tabBarItem key="tabBarItem" title="Seu pet" image="if_heart_1118211" id="kvC-cb-kza"/>
                     <navigationItem key="navigationItem" title="Monitoramento cardíaco" id="xEw-N2-73J"/>
                     <connections>
-                        <outlet property="labelBatimento" destination="Pxi-eB-no7" id="zDl-0A-wxh"/>
+                        <outlet property="labelBatimento" destination="Pxi-eB-no7" id="cw6-Lt-sGp"/>
                     </connections>
                 </viewController>
             </objects>

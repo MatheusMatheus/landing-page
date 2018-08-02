@@ -12,17 +12,20 @@ class AdoteViewController: UIViewController {
     
     @IBOutlet weak var thumbImageView: UIImageView!
     @IBOutlet weak var cardView: UIViewX!
-    @IBOutlet weak var tituloLabel: UILabel!
-    @IBOutlet weak var subtituloLabel: UILabel!
+    @IBOutlet weak var fotoPet: UIImageViewX!
+    @IBOutlet weak var titulo: UILabel!
+    @IBOutlet weak var subtitulo: UILabel!
     
+    let images = [#imageLiteral(resourceName: "foto1"),#imageLiteral(resourceName: "foto2"),#imageLiteral(resourceName: "foto3"),#imageLiteral(resourceName: "foto4"),#imageLiteral(resourceName: "foto5"),#imageLiteral(resourceName: "foto6"),#imageLiteral(resourceName: "foto7"),#imageLiteral(resourceName: "foto8"),#imageLiteral(resourceName: "foto9"),#imageLiteral(resourceName: "foto10")]
+    //var index: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         let pets: [Pet]
         pets = PetResource.getPets()
-        tituloLabel.text = pets[0].nome
-        subtituloLabel.text = pets[0].infoPet
+        fotoPet.image = images[Incrementador.index]
+        titulo.text = pets[Incrementador.index].nome
+        subtitulo.text = pets[Incrementador.index].infoPet
     }
     
     
@@ -68,6 +71,12 @@ class AdoteViewController: UIViewController {
                     card.center = CGPoint(x: card.center.x - 200, y: card.center.y + 100)
                     card.alpha = 0
                 })
+                if Incrementador.index >= 0 && Incrementador.index < images.count-1 {
+                    Incrementador.index += 1
+                    newCard()
+                    
+                }
+                
                 return
             } else if card.center.x > view.frame.width - 100 {
                 // Thumbs Up
@@ -75,15 +84,32 @@ class AdoteViewController: UIViewController {
                     card.center = CGPoint(x: card.center.x + 200, y: card.center.y + 100)
                     card.alpha = 0
                 })
+                if Incrementador.index > 0 && Incrementador.index <= images.count {
+                    Incrementador.index -= 1
+                    newCard()
+                }
                 return
             }
             
             resetCard()
+            
         }
     }
     
     @IBAction func reset(_ sender: Any) {
         resetCard()
+    }
+    
+    func newCard() {
+        //        UIView.animate(withDuration: 0.2, animations: {
+        //            self.cardView.alpha = 1
+        //            self.cardView.transform = .identity
+        //            self.cardView.center = self.view.center
+        //            self.thumbImageView.alpha = 0
+        //            self.fotoPet.image = self.images[self.index]
+        //        })
+        resetCard()
+        self.fotoPet.image = self.images[Incrementador.index]
     }
     
     func resetCard() {
@@ -92,6 +118,7 @@ class AdoteViewController: UIViewController {
             self.cardView.transform = .identity
             self.cardView.center = self.view.center
             self.thumbImageView.alpha = 0
+            self.fotoPet.image = self.images[0]
         })
     }
 }

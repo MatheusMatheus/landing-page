@@ -39,6 +39,10 @@ class Pet {
 
 }
 
+class Incrementador{
+    static var index: Int = 0
+}
+
 /*
 class Animal {
     var id : String
