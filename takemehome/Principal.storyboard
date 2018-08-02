@@ -25,8 +25,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="fq3-g9-6mg" kind="relationship" relationship="viewControllers" id="PVB-fo-pIz"/>
                         <segue destination="gH0-X4-6eN" kind="relationship" relationship="viewControllers" id="O6S-D2-IbG"/>
+                        <segue destination="C6m-qq-JCk" kind="relationship" relationship="viewControllers" id="E7z-D4-z1C"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JdA-iy-mhK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -498,6 +498,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cDg-OY-NsM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3135" y="231"/>
+        </scene>
+        <!--Adote-->
+        <scene sceneID="k8T-vu-Ewq">
+            <objects>
+                <navigationController modalTransitionStyle="flipHorizontal" id="C6m-qq-JCk" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Adote" image="if_Cats_751111" id="q7e-6J-ry1"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ca9-7C-QKH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fq3-g9-6mg" kind="relationship" relationship="rootViewController" id="kwb-ZO-lWG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EsK-gG-vOv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-468" y="-795"/>
         </scene>
     </scenes>
     <resources>
