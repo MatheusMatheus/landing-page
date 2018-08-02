@@ -15,7 +15,9 @@ class InfoPetViewController: UIViewController {
     @IBOutlet weak var sexoPet: UILabel!
     @IBOutlet weak var portePet: UILabel!
     @IBOutlet weak var infoPet: UITextView!
+    @IBOutlet weak var fotoPet: UIImageView!
     
+    let images = [#imageLiteral(resourceName: "foto1"),#imageLiteral(resourceName: "foto2"),#imageLiteral(resourceName: "foto3"),#imageLiteral(resourceName: "foto4"),#imageLiteral(resourceName: "foto5"),#imageLiteral(resourceName: "foto6"),#imageLiteral(resourceName: "foto7"),#imageLiteral(resourceName: "foto8"),#imageLiteral(resourceName: "foto9"),#imageLiteral(resourceName: "foto10")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +29,7 @@ class InfoPetViewController: UIViewController {
         sexoPet.text = pets[Incrementador.index].sexo
         portePet.text = pets[Incrementador.index].porte
         infoPet.text = pets[Incrementador.index].infoPet
-        
+        fotoPet.image = images[Incrementador.index]
      
     }
 }
