@@ -11,12 +11,6 @@
 		3F42238B210A5FA800B4A71A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F42238A210A5FA800B4A71A /* Assets.xcassets */; };
 		3F42238F210A65B200B4A71A /* Registrar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F42238E210A65B200B4A71A /* Registrar.storyboard */; };
 		3F422393210A67E500B4A71A /* RegistrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F422392210A67E500B4A71A /* RegistrarViewController.swift */; };
-		3F461CB4211247AA00C59257 /* AdontanteResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F461CB1211247AA00C59257 /* AdontanteResource.swift */; };
-		3F461CB5211247AA00C59257 /* DoadorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F461CB2211247AA00C59257 /* DoadorResource.swift */; };
-		3F461CB6211247AA00C59257 /* PetResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F461CB3211247AA00C59257 /* PetResource.swift */; };
-		3F461CBA211247C200C59257 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F461CB7211247C200C59257 /* Animal.swift */; };
-		3F461CBB211247C200C59257 /* Doacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F461CB8211247C200C59257 /* Doacao.swift */; };
-		3F461CBC211247C200C59257 /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F461CB9211247C200C59257 /* Pessoa.swift */; };
 		3F461CBE21124D9200C59257 /* ChamadaSincrona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F461CBD21124D9200C59257 /* ChamadaSincrona.swift */; };
 		3F4E2EA52110E9B40018C578 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E2E9C2110E9B40018C578 /* UIButtonX.swift */; };
 		3F4E2EA62110E9B40018C578 /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4E2E9D2110E9B40018C578 /* UIImageViewX.swift */; };
@@ -35,6 +29,12 @@
 		3F7A205A2106718900FB501B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A20592106718900FB501B /* LoginViewController.swift */; };
 		3F7A205D2106718900FB501B /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7A205B2106718900FB501B /* Login.storyboard */; };
 		3F7A20622106718900FB501B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7A20602106718900FB501B /* LaunchScreen.storyboard */; };
+		A3E7BFF32112A540001F079D /* AdontanteResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7BFF02112A53F001F079D /* AdontanteResource.swift */; };
+		A3E7BFF42112A540001F079D /* DoadorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7BFF12112A53F001F079D /* DoadorResource.swift */; };
+		A3E7BFF52112A540001F079D /* PetResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7BFF22112A540001F079D /* PetResource.swift */; };
+		A3E7BFF92112A558001F079D /* Doacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7BFF62112A558001F079D /* Doacao.swift */; };
+		A3E7BFFA2112A558001F079D /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7BFF72112A558001F079D /* Pessoa.swift */; };
+		A3E7BFFB2112A558001F079D /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E7BFF82112A558001F079D /* Animal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,12 +42,6 @@
 		3F42238A210A5FA800B4A71A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F42238E210A65B200B4A71A /* Registrar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Registrar.storyboard; sourceTree = "<group>"; };
 		3F422392210A67E500B4A71A /* RegistrarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrarViewController.swift; sourceTree = "<group>"; };
-		3F461CB1211247AA00C59257 /* AdontanteResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdontanteResource.swift; path = "../../Desktop/takemehome-full/takemehome/AdontanteResource.swift"; sourceTree = "<group>"; };
-		3F461CB2211247AA00C59257 /* DoadorResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DoadorResource.swift; path = "../../Desktop/takemehome-full/takemehome/DoadorResource.swift"; sourceTree = "<group>"; };
-		3F461CB3211247AA00C59257 /* PetResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PetResource.swift; path = "../../Desktop/takemehome-full/takemehome/PetResource.swift"; sourceTree = "<group>"; };
-		3F461CB7211247C200C59257 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Animal.swift; path = "../../Desktop/takemehome-full/takemehome/Animal.swift"; sourceTree = "<group>"; };
-		3F461CB8211247C200C59257 /* Doacao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Doacao.swift; path = "../../Desktop/takemehome-full/takemehome/Doacao.swift"; sourceTree = "<group>"; };
-		3F461CB9211247C200C59257 /* Pessoa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pessoa.swift; path = "../../Desktop/takemehome-full/takemehome/Pessoa.swift"; sourceTree = "<group>"; };
 		3F461CBD21124D9200C59257 /* ChamadaSincrona.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChamadaSincrona.swift; sourceTree = "<group>"; };
 		3F4E2E9C2110E9B40018C578 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButtonX.swift; path = DesignableX/UIButtonX.swift; sourceTree = "<group>"; };
 		3F4E2E9D2110E9B40018C578 /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageViewX.swift; path = DesignableX/UIImageViewX.swift; sourceTree = "<group>"; };
@@ -68,6 +62,12 @@
 		3F7A205C2106718900FB501B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		3F7A20612106718900FB501B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F7A20632106718900FB501B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3E7BFF02112A53F001F079D /* AdontanteResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdontanteResource.swift; path = takemehome/AdontanteResource.swift; sourceTree = "<group>"; };
+		A3E7BFF12112A53F001F079D /* DoadorResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DoadorResource.swift; path = takemehome/DoadorResource.swift; sourceTree = "<group>"; };
+		A3E7BFF22112A540001F079D /* PetResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PetResource.swift; path = takemehome/PetResource.swift; sourceTree = "<group>"; };
+		A3E7BFF62112A558001F079D /* Doacao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Doacao.swift; path = takemehome/Doacao.swift; sourceTree = "<group>"; };
+		A3E7BFF72112A558001F079D /* Pessoa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pessoa.swift; path = takemehome/Pessoa.swift; sourceTree = "<group>"; };
+		A3E7BFF82112A558001F079D /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Animal.swift; path = takemehome/Animal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +84,9 @@
 		3F461CA32112445A00C59257 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				3F461CB7211247C200C59257 /* Animal.swift */,
-				3F461CB8211247C200C59257 /* Doacao.swift */,
-				3F461CB9211247C200C59257 /* Pessoa.swift */,
+				A3E7BFF82112A558001F079D /* Animal.swift */,
+				A3E7BFF62112A558001F079D /* Doacao.swift */,
+				A3E7BFF72112A558001F079D /* Pessoa.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -94,9 +94,9 @@
 		3F461CAA2112447400C59257 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				3F461CB1211247AA00C59257 /* AdontanteResource.swift */,
-				3F461CB2211247AA00C59257 /* DoadorResource.swift */,
-				3F461CB3211247AA00C59257 /* PetResource.swift */,
+				A3E7BFF02112A53F001F079D /* AdontanteResource.swift */,
+				A3E7BFF12112A53F001F079D /* DoadorResource.swift */,
+				A3E7BFF22112A540001F079D /* PetResource.swift */,
 				3F461CBD21124D9200C59257 /* ChamadaSincrona.swift */,
 			);
 			name = resources;
@@ -234,27 +234,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F461CBC211247C200C59257 /* Pessoa.swift in Sources */,
+				A3E7BFFA2112A558001F079D /* Pessoa.swift in Sources */,
 				3F4E2EAA2110E9B40018C578 /* UIViewAnchorPoint.swift in Sources */,
+				A3E7BFF32112A540001F079D /* AdontanteResource.swift in Sources */,
 				3F4E2EA72110E9B40018C578 /* UILabelX.swift in Sources */,
 				3F4E2EA82110E9B40018C578 /* UISliderX.swift in Sources */,
 				3F6EE0BB210FB15600BEC3D1 /* AdoteViewController.swift in Sources */,
-				3F461CB5211247AA00C59257 /* DoadorResource.swift in Sources */,
+				A3E7BFF42112A540001F079D /* DoadorResource.swift in Sources */,
 				3F461CBE21124D9200C59257 /* ChamadaSincrona.swift in Sources */,
 				3F4E2EA62110E9B40018C578 /* UIImageViewX.swift in Sources */,
 				3F4E2EAC2110E9B40018C578 /* UIViewX.swift in Sources */,
 				3F7A205A2106718900FB501B /* LoginViewController.swift in Sources */,
 				3F422393210A67E500B4A71A /* RegistrarViewController.swift in Sources */,
-				3F461CBA211247C200C59257 /* Animal.swift in Sources */,
 				3F4E2ED52110F98D0018C578 /* InfoPetViewController.swift in Sources */,
 				3F4E2EAD2110E9B40018C578 /* UIViewXRadialGradient.swift in Sources */,
 				3F4E2EAB2110E9B40018C578 /* UIViewControllerX.swift in Sources */,
+				A3E7BFFB2112A558001F079D /* Animal.swift in Sources */,
 				3F4E2EA52110E9B40018C578 /* UIButtonX.swift in Sources */,
 				3F4E2EA92110E9B40018C578 /* UITextFieldX.swift in Sources */,
-				3F461CBB211247C200C59257 /* Doacao.swift in Sources */,
+				A3E7BFF92112A558001F079D /* Doacao.swift in Sources */,
 				3F7A20582106718900FB501B /* AppDelegate.swift in Sources */,
-				3F461CB4211247AA00C59257 /* AdontanteResource.swift in Sources */,
-				3F461CB6211247AA00C59257 /* PetResource.swift in Sources */,
+				A3E7BFF52112A540001F079D /* PetResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

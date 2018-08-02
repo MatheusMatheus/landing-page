@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aSX-BD-iaq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aSX-BD-iaq">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -188,7 +188,7 @@
                     <tabBarItem key="tabBarItem" title="Adote" image="if_Cats_751111" id="zlf-Jd-C5k"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="oMH-Ra-9rO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -372,7 +372,9 @@
                     </navigationItem>
                     <connections>
                         <outlet property="cardView" destination="L60-5O-U4p" id="8GO-3d-05C"/>
+                        <outlet property="subtituloLabel" destination="ilY-HI-efL" id="ZM5-1s-bCh"/>
                         <outlet property="thumbImageView" destination="fEs-Ef-j3y" id="Dmk-8J-5ZH"/>
+                        <outlet property="tituloLabel" destination="Abx-pc-nU3" id="Z4W-Bv-63s"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="boA-vl-42t" userLabel="First Responder" sceneMemberID="firstResponder"/>

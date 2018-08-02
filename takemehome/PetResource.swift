@@ -12,7 +12,23 @@ import Foundation
 
 class PetResource {
     
-    static func getPet() -> [Pet]{
+    static func getPetByID(id: String) -> Pet? {
+        let url = URL(string: "https://botelhocardiaco.mybluemix.net/animal?id=\(id)")!
+        let(data,_, error) = URLSession.shared.synchronousDataTask(with: url)
+        
+        if error != nil {
+            return nil
+        } else {
+            let json = try!
+                JSONSerialization.jsonObject(with: data!) as! [String: AnyObject]
+            
+            return Pet(json: json)
+            
+        }
+  
+    }
+    
+    static func getPets() -> [Pet]{
         
         let url = URL(string: "https://botelhocardiaco.mybluemix.net/animais")!
         
@@ -34,5 +50,22 @@ class PetResource {
             return pets
         }
     }
+    
+    static func deletePet(id: String) -> String{
+        
+        let url = URL(string: "https://botelhocardiaco.mybluemix.net/delete-animal?id=\(id)")!
+        
+        let(_,_, error) = URLSession.shared.synchronousDataTask(with: url)
+        
+        
+        if error != nil{
+            return "Erro ao deletar"
+        } else {
+            return "Pet Deletado com sucesso!"
+        }
+    }
+    
 }
+
+
 

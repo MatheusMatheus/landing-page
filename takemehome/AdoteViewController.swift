@@ -13,9 +13,17 @@ class AdoteViewController: UIViewController {
     @IBOutlet weak var thumbImageView: UIImageView!
     
     @IBOutlet weak var cardView: UIViewX!
+    @IBOutlet weak var tituloLabel: UILabel!
+    @IBOutlet weak var subtituloLabel: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let pets: [Pet]
+        pets = PetResource.getPets()
+        tituloLabel.text = pets[0].nome
+        subtituloLabel.text = pets[0].infoPet
     }
     
     

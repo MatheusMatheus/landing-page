@@ -16,7 +16,7 @@ class InfoPetViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var pets : [Pet] = PetResource.getPet()
+        var pets : [Pet] = PetResource.getPets()
         
         endereco.text = pets[0].endereco
         contatoDoador.text = pets[0].contato

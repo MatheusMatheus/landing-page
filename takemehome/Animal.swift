@@ -36,6 +36,7 @@ class Pet {
         self.doador = Doador(json: json["doador"] as! [String : String])
    
     }
+
 }
 
 /*
