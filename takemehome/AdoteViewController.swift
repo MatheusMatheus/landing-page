@@ -11,7 +11,6 @@ import UIKit
 class AdoteViewController: UIViewController {
     
     @IBOutlet weak var thumbImageView: UIImageView!
-    
     @IBOutlet weak var cardView: UIViewX!
     @IBOutlet weak var tituloLabel: UILabel!
     @IBOutlet weak var subtituloLabel: UILabel!
