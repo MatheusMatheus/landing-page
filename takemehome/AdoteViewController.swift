@@ -17,12 +17,10 @@ class AdoteViewController: UIViewController {
     @IBOutlet weak var subtitulo: UILabel!
     
     let images = [#imageLiteral(resourceName: "foto1"),#imageLiteral(resourceName: "foto2"),#imageLiteral(resourceName: "foto3"),#imageLiteral(resourceName: "foto4"),#imageLiteral(resourceName: "foto5"),#imageLiteral(resourceName: "foto6"),#imageLiteral(resourceName: "foto7"),#imageLiteral(resourceName: "foto8"),#imageLiteral(resourceName: "foto9"),#imageLiteral(resourceName: "foto10")]
-    //var index: Int = 0
+    var pets: [Pet] = PetResource.getPets()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let pets: [Pet]
-        pets = PetResource.getPets()
         fotoPet.image = images[Incrementador.index]
         titulo.text = pets[Incrementador.index].nome
         subtitulo.text = pets[Incrementador.index].infoPet
@@ -33,23 +31,18 @@ class AdoteViewController: UIViewController {
         let card = sender.view!
         let xFromCenter = card.center.x - view.center.x
         
-        /*
-         Degrees   Radians
-         15          .26
-         25          .43
-         35          .61
-         */
+
         let rotationAngle = xFromCenter/view.frame.width * 0.61
         let rotation = CGAffineTransform(rotationAngle: rotationAngle)
         
-        // Maybe make this optional
+ 
         let scale = min(100/abs(xFromCenter) , 1)
         let stretchAndRotation = rotation.scaledBy(x: scale, y: scale)
         
         card.transform = stretchAndRotation
         card.center = sender.location(in: view)
         
-        // Set Thumb Image
+   
         if xFromCenter > 0 {
             thumbImageView.image = #imageLiteral(resourceName: "ThumpUp")
             thumbImageView.tintColor = UIColor.green
@@ -58,15 +51,11 @@ class AdoteViewController: UIViewController {
             thumbImageView.tintColor = UIColor.red
         }
         
-        // Show Thumb Image
         let alphaValue = abs(xFromCenter/view.center.x)
         thumbImageView.alpha = alphaValue
         
         if sender.state == UIGestureRecognizerState.ended {
-            
             if card.center.x < 100 {
-                // Thumbs Down
-                // Move off to the left
                 UIView.animate(withDuration: 0.3, animations: {
                     card.center = CGPoint(x: card.center.x - 200, y: card.center.y + 100)
                     card.alpha = 0
@@ -74,12 +63,9 @@ class AdoteViewController: UIViewController {
                 if Incrementador.index >= 0 && Incrementador.index < images.count-1 {
                     Incrementador.index += 1
                     newCard()
-                    
                 }
-                
                 return
             } else if card.center.x > view.frame.width - 100 {
-                // Thumbs Up
                 UIView.animate(withDuration: 0.3, animations: {
                     card.center = CGPoint(x: card.center.x + 200, y: card.center.y + 100)
                     card.alpha = 0
@@ -90,9 +76,7 @@ class AdoteViewController: UIViewController {
                 }
                 return
             }
-            
             resetCard()
-            
         }
     }
     
@@ -101,15 +85,11 @@ class AdoteViewController: UIViewController {
     }
     
     func newCard() {
-        //        UIView.animate(withDuration: 0.2, animations: {
-        //            self.cardView.alpha = 1
-        //            self.cardView.transform = .identity
-        //            self.cardView.center = self.view.center
-        //            self.thumbImageView.alpha = 0
-        //            self.fotoPet.image = self.images[self.index]
-        //        })
         resetCard()
-        self.fotoPet.image = self.images[Incrementador.index]
+        self.fotoPet.image = images[Incrementador.index]
+        self.titulo.text = pets[Incrementador.index].nome
+        self.subtitulo.text = pets[Incrementador.index].infoPet
+
     }
     
     func resetCard() {
@@ -119,6 +99,8 @@ class AdoteViewController: UIViewController {
             self.cardView.center = self.view.center
             self.thumbImageView.alpha = 0
             self.fotoPet.image = self.images[0]
+            self.titulo.text = self.pets[0].nome
+            self.subtitulo.text = self.pets[0].infoPet
         })
     }
 }
